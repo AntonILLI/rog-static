@@ -1,0 +1,234 @@
+html {
+	scroll-behavior: smooth;
+}
+
+#land {
+  display: inline-block;
+}
+
+.form-control {
+  border-width: 3px;
+}
+
+.btn-outline-danger {
+  border-color: tomato;
+  color: tomato;
+}
+
+.btn-outline-danger:hover {
+  background: tomato;
+  color: white;
+}
+
+.btn-dark {
+	color: tomato;
+}
+
+#sendbtn {
+	background: tomato;
+	color: white;
+}
+
+#sendbtn:hover {
+	border-color: white;		
+}
+
+#resetbt:hover {
+	background: rgb(52, 58, 64);	
+	border-color: white;
+}
+
+body.pur-body {
+	background-color: grey;
+}
+
+.tab-pane {
+		background-color: white;
+		border-radius: 1px;
+}
+
+body.ind-body {
+background-image: url("background.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(52, 58, 64);
+  color: tomato;
+  text-align: center;
+}
+
+#vid {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+iframe {
+		display: block;
+		margin: 0 auto;
+}
+
+.card {
+  padding: 5px;
+  column-gap: 0.25 rem;
+}
+
+a:hover {
+	color: tomato;
+}
+
+#intro {
+background-color: grey;
+opacity: 0.75;
+padding-top: 50px;
+padding-bottom: 50px;
+margin-top: 100px;
+border-radius: 5px;
+border: 1px solid tomato;
+font-size: 18px;
+transition: background-color 1s, opacity 1s;	
+}
+
+#intro:hover {
+background-color: white;
+opacity: 1.0;
+}
+
+.needs-validation {
+  padding: 25px;
+  margin-bottom: 50px;
+	border-radius: 2%;
+	background-color: rgb(52, 58, 64);
+	color: tomato;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+}
+
+.fa:hover {text-decoration: none;}
+
+.fa-facebook {color: white;}
+.fa-twitter {color: white;}
+.fa-linkedin {color: white;}
+.fa-youtube {color: white;}
+.fa-instagram {color: white;}
+.fa-pinterest {color: white;}
+
+.preview-pic {
+  width: 100%;
+  border-style: groove;
+}
+
+.space {
+  padding-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(128, 128, 128);
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(52, 58, 64);
+  color: tomato;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: tomato;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: rgb(52, 58, 64);
+}
+
+img.grayscale {
+    filter: gray; 
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all .6s ease; 
+    -webkit-backface-visibility: hidden;
+    width: 50%; 
+}
+
+img.grayscale:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+.nav-link {
+  display: inline-block;
+  color: tomato;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: rgb(52, 58, 64);
+  letter-spacing: -1px;
+}
+
+.nav-item {
+  padding-right: 10px;
+}
+
+.nav-pills .nav-link.active {
+  background-color: rgb(52, 58, 64);
+  color:red;
+  box-shadow: 0px 0px 30px 10px red;
+}
+
+#drop {
+  border: none;
+  content: none;
+  alignment: left;
+  background-color: transparent;
+}
+
+#drop:after {
+  content: none;
+}
+.dropdown-menu {
+  background: rgb(52, 58, 64);
+}
+.dropdown-item {
+  background-color: rgb(52, 58, 64);
+  color: tomato;
+}
+.dropdown-item:hover{
+  background-color: rgb(128, 128, 128);
+  color: red;
+}
+
+#purchase {
+  background-color: rgb(128, 128, 128);
+}
